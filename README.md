@@ -17,11 +17,14 @@ The next day i will push the answer for the previous day and 1 new exercise
 7. share your daily progress on the developer circle page
 
 ## Tips
-- make a personal commitment every day for about 1 to 3 hours
+- make it a personal commitment
 - don't look at answer on internet
 - don't use any IDE, use a command line if possible 
 - push your code even if you didn't finish your exercise
 - don't push to master, only on your branch
+- Choose a Programming Language and Learn The Fundamentals of it
+- Review basic data structure
+- Review time and space complexity
 
 ## Keep in mind
 - you will be overwhelmed with so many questions and you will face a lot of difficulty in solving the problems. It’s okay if you take more time in solving the questions but don’t be discouraged. 
