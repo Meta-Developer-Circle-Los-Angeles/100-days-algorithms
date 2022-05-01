@@ -23,6 +23,12 @@ The next day i will push the answer for the previous day and 1 new exercise
 - push your code even if you didn't finish your exercise
 - don't push to master, only on your branch
 
+## Keep in mind
+- you will be overwhelmed with so many questions and you will face a lot of difficulty in solving the problems. It’s okay if you take more time in solving the questions but don’t be discouraged. 
+- If you’re a beginner then try to commit at least 4-6 hours every day
+- If you’re an experienced try to commit for 2-3 hours every day
+- Try to solve the problems on your own first even if it takes a couple of more hours. After spending many hours if you don’t get the solution then you can stretch yourself for a few days or take the hints. As you will progress you will see improvement in yourself and also you will take less time in solving the questions.
+
 ## Resources
 - https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository
 - https://www.youtube.com/watch?v=RB5nWzdl-b8
