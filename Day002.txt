@@ -1,0 +1,6 @@
+Subject:
+Compare two strings lexicographically
+
+- if (string1 > string2) it returns a positive value
+- if (string1 == string2) it returns 0
+- if (string1 < string2) it returns a negative value.
