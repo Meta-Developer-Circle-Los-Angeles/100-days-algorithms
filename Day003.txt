@@ -1,0 +1,7 @@
+Subject:
+Given a string, find all characters that are missing from the string to form a pangram.
+Pangram is a sentence containing every letter in the English alphabet.
+
+Example
+Input : The quick brown fox jumps
+Output : adglvyz
