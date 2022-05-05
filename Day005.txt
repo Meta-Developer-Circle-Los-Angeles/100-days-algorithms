@@ -1,0 +1,10 @@
+Subject:
+Given a value, write a function that will test to see if the string is a palindrome or not. Return true if it is or false if it’s not.
+
+A palindrome is a word or phrase that reads the same backward and forward. When palindromes are the length of a sentence, they ignore capitalization, punctuation, and word boundaries.
+
+Example:
+isPalindrome(“”) // true
+isPalindrome(1010) // false
+isPalindrome(“taco Cat”) // true
+isPalindrome(“hello”) // false
