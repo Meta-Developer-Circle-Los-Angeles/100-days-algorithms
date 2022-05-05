@@ -23,7 +23,7 @@ class reversedStr{
     }
 
     reverse(){
-        this.newStr = this.originalStr.split(".").join(" ");;
+        this.newStr = this.originalStr.split(".").join(" ");
         let reversedStr = this.newStr.split(" ").reverse().join(".");
         return reversedStr;
        }

@@ -8,3 +8,7 @@ isPalindrome(“”) // true
 isPalindrome(1010) // false
 isPalindrome(“taco Cat”) // true
 isPalindrome(“hello”) // false
+
+
+
+
