@@ -1,0 +1,9 @@
+Subject:
+given an Integer, return it's binary representation
+
+Example:
+Input: 33
+Output: 100001
+
+Input: 42
+Output: 101010
