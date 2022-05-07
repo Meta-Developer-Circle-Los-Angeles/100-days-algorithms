@@ -1,0 +1,7 @@
+Subject:
+Given two strings a and b consisting of lowercase characters, check whether two given strings are an anagram of each other or not. 
+An anagram of a string is another string that contains the same characters, only the order of characters can be different. 
+
+Example:
+ input: [“act”, “tac”] 
+ output: true
