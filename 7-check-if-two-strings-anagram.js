@@ -12,11 +12,14 @@ function checkIfAnagram(a, b){
     let aLen = a.length;
     let bLen = b.length;
 
-    if (aLen === bLen){
-      return true;
+    str1 = a.split('').sort().join('');
+    str2 = b.split('').sort().join('');
+
+    if(str1 === str2 && aLen === bLen){
+        return true;
     } else {
-      return false;
-    }  
+        return false;
+    }
 
 }
 
@@ -34,14 +37,20 @@ class CheckIfAnagram{
     compareStrs(){
         let aLen = this.a.length;
         let bLen = this.b.length;
-        if (aLen === bLen){
+        
+        let str1 = this.a.split('').sort().join('');
+        let str2 = this.b.split('').sort().join('');
+        
+        if(str1 === str2 && aLen === bLen){
             return true;
-          } else {
+        } else {
             return false;
-        }  
-    }
-
+        }
+        
+    }  
 }
+
+
 
 let act = new CheckIfAnagram("act", "tac");
 console.log(act.compareStrs());
@@ -59,18 +68,19 @@ function checkIfAnagram(a,b){
 checkIfAnagram.prototype.compareStrs = function(){
     let aLen = this.a.length;
     let bLen = this.b.length;
-    if (aLen === bLen){
+
+    let str1 = this.a.split('').sort().join('');
+    let str2 = this.b.split('').sort().join('');
+
+    if (str1 === str2 && aLen === bLen){
         return true;
       } else {
         return false;
     }  
 }
 
-let act2 = new checkIfAnagram("act", "tac");
-console.log(act2.compareStrs());
+let act = new checkIfAnagram("act", "tac");
+console.log(act.compareStrs());
 
-let sat2 = new checkIfAnagram("saturday", "daystar");
-console.log(sat2.compareStrs());
-
-let dog2 = new checkIfAnagram("dog", "god");
-console.log(dog2.compareStrs());
+let sat = new checkIfAnagram("saturday", "daystar");
+console.log(sat.compareStrs());
