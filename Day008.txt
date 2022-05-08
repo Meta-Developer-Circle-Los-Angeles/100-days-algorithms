@@ -1,0 +1,8 @@
+SubjectL
+Given a string S. The task is to print all the possible rotated strings of the given string.
+
+Example:
+Input : "abc" 
+Output : abc
+         bca
+         cab
