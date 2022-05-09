@@ -1,0 +1,15 @@
+Subject:
+Given a string of digits, determine whether it is a ‘sum-string’. A string S is called a sum-string if a rightmost substring can be written as sum of two substrings before it and same is recursively true for substrings before it. 
+
+Example:
+Input: "12243660"
+Output: is a sum string
+Explanation : 24 + 36 = 60, 12 + 24 = 36
+
+Input: “1111112223” 
+Output: true, is a sum string
+Explanation: 111+112 = 223, 1+111 = 112 
+
+Input: “2368” 
+Output: false, is not a sum string
+
