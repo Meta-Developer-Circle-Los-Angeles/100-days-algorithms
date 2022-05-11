@@ -40,3 +40,5 @@ console.log(isPalindrome("taco Cat"));
 console.log(isPalindrome("hello"));
 console.log(isPalindrome("1010"));
 console.log(isPalindrome(111));
+
+
