@@ -1,0 +1,8 @@
+Subject:Given two strings s1 and s2, check whether s2 is a rotation of s1. 
+
+Example:
+Input : ABACD, CDABA
+Output : True
+
+Input : GEEKS, EKSGE
+Output : True
