@@ -1,0 +1,11 @@
+Subject: Given a positive integer n, round it to nearest whole number having zero as last digit.
+
+Example:
+Input : 4722
+Output : 4720
+
+Input : 38
+Output : 40
+
+Input : 10
+Output: 10
