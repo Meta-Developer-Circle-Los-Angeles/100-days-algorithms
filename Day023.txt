@@ -1,4 +1,5 @@
-Subject: Write a function to check whether a given input is an integer or a string.
+Subject: Write a function to check whether a given input is an integer or a 
+string.
 Integer: Every element should be a valid digit, i.e '0-9'.
 String: Any one element should be an invalid digit, i.e any symbol other
 

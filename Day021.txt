@@ -1,4 +1,5 @@
-Subject: Given a positive integer n, round it to nearest whole number having zero as last digit.
+Subject: Given a positive integer n, round it to nearest whole number having 
+zero as last digit.
 
 Example:
 Input : 4722
