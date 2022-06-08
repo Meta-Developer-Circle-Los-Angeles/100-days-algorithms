@@ -14,6 +14,7 @@
 // Explanation : Split from index 1 and first
 // part add to the end.
 
+// EX 1:
 function splitArr(arr = [], k){
     let cArr = [...arr];
     cArr.splice(k, cArr.length);
@@ -27,3 +28,28 @@ splitArr([12, 10, 5, 6, 52, 36], 2);
 splitArr([3, 1, 2], 1);
 
 
+// EX 2:
+class SplitArr{
+    constructor(arr,k){
+        this.arr = arr,
+        this.k = k
+    }
+
+    addLeftSplitToRight(){
+        let arr = this.arr;
+        let k = this.k;
+        let cArr = [...arr];
+        cArr.splice(k, cArr.length);
+        let splitLeft = arr.splice(k);
+        let res = splitLeft.concat(cArr);
+        return res;
+    }
+}
+
+let arrOne = new SplitArr([12, 10, 5, 6, 52, 36], 2);
+let resOne = arrOne.addLeftSplitToRight();
+resOne;
+
+let arrTwo = new SplitArr([3, 1, 2], 1);
+let resTwo = arrTwo.addLeftSplitToRight();
+resTwo;
