@@ -53,3 +53,29 @@ resOne;
 let arrTwo = new SplitArr([3, 1, 2], 1);
 let resTwo = arrTwo.addLeftSplitToRight();
 resTwo;
+
+
+// EX 3:
+function splitArrProto(arr = [], k){
+    this.arr = arr,
+    this.k = k
+}
+
+splitArrProto.prototype.addLeftSplitToRightProto = function(){
+    let arr = this.arr;
+    let k = this.k;
+    let cArr = [...arr];
+    cArr.splice(k, cArr.length);
+    let splitLeft = arr.splice(k);
+    let res = splitLeft.concat(cArr);
+    return res;
+}
+
+let resOneProto = new splitArrProto([12, 10, 5, 6, 52, 36], 2);
+let resultOne = resOneProto.addLeftSplitToRightProto();
+resultOne;
+
+
+let resTwoProto = new splitArrProto([3, 1, 2], 1);
+let resultTwo = resTwoProto.addLeftSplitToRightProto();
+resultTwo;
