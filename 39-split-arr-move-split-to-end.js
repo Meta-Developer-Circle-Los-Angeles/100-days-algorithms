@@ -1,7 +1,6 @@
 // Subject:
 // There is a given array and split it from a specified position, and move the first part of the array add to the end. 
  
-
 //  Example:
 //  Input : arr[] = {12, 10, 5, 6, 52, 36}
 //             k = 2
@@ -26,3 +25,5 @@ function splitArr(arr = [], k){
 
 splitArr([12, 10, 5, 6, 52, 36], 2);
 splitArr([3, 1, 2], 1);
+
+
