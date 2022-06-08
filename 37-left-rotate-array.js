@@ -64,12 +64,16 @@ function leftRotate(arr, numRotate) {
 
 let newArr1 = leftRotate([1, 3, 5, 7, 9], 1);
 let closure1 = newArr1();
+closure1;
 
 let newArr2 = leftRotate([1, 3, 5, 7, 9], 3);
 let closure2 = newArr2();
+closure2;
 
 let newArr3 = leftRotate([1, 3, 5, 7, 9], 4);
 let closure3 = newArr3();
+closure3;
 
 let newArr4 = leftRotate([1, 3, 5, 7, 9], 6);
 let closure4 = newArr4();
+closure4;
