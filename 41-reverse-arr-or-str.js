@@ -12,9 +12,22 @@
 // EX 1:
 function reverseArr(arr = []){
    let newArr = [...arr];
-   newArr.reverse();
-   for(let i = 0; i < newArr.length; i++){
+   newArr.reverse(); //traverses...so 0(n)
+   for(let i = 0; i < newArr.length; i++){ //0(n) again!!
        let res = newArr[i];
         console.log(res);
    }
 }
+
+// EX 2:
+// 0(n) => better
+function reverseString(arr = []) {
+    let newArr = [];
+    for (var i = arr.length - 1; i >= 0; i--){
+       newArr += arr[i];
+    }
+     
+    return newArr;
+}
+
+reverseString([1, 2, 3]);
