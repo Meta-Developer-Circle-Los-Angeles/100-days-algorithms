@@ -15,8 +15,8 @@ let convertToBinary = (num) => {
     return Number(num).toString(2);
  }
  
- convertToBinary(42);
- convertToBinary(33);
+convertToBinary(42);
+convertToBinary(33);
 
  // EX 2:
 
