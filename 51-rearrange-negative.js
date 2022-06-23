@@ -84,3 +84,7 @@ function newArrProto(){
 }
 
 newArrProto();
+
+
+
+
