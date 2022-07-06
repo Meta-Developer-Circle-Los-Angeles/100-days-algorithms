@@ -1,0 +1,26 @@
+Title: Bottom View of a Binary Tree
+
+Subject: Given a Binary Tree, we need to print the bottom view from left to right. A node x is there in output if x is the bottommost node at its horizontal distance. The horizontal distance of the left child of a node x is equal to a horizontal distance of x minus 1, and that of a right child is the horizontal distance of x plus 1
+
+Example:
+                      20
+                    /    \
+                  8       22
+                /   \      \
+              5      3      25
+                    / \      
+                  10    14
+
+For the above tree, the output should be 5, 10, 3, 14, 25.
+
+If there are multiple bottom-most nodes for a horizontal distance from the root, then print the later one in the level traversal. For example, in the below diagram, 3 and 4 are both the bottom-most nodes at a horizontal distance of 0, we need to print 4. 
+
+				      20
+                    /    \
+                  8       22
+                /   \    /   \
+              5      3 4     25
+                    / \      
+                  10    14                  
+
+For the above tree, the output should be 5 10 4 14 25.                   
