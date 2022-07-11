@@ -1,0 +1,22 @@
+Title: Primality Test | Set 2 (Fermat Method)
+
+Subject: 
+Given a number n, check if it is prime or not. We have introduced and discussed the School method for primality testing in Set 1.
+Primality Test | Set 1 (Introduction and School Method)
+In this post, Fermat’s method is discussed. This method is a probabilistic method and is based on Fermat’s Little Theorem.
+
+Example:
+Fermat's Little Theorem:
+If n is a prime number, then for every a, 1 < a < n-1,
+
+an-1 ≡ 1 (mod n)
+ OR 
+an-1 % n = 1 
+ 
+
+Example: Since 5 is prime, 24 ≡ 1 (mod 5) [or 24%5 = 1],
+         34 ≡ 1 (mod 5) and 44 ≡ 1 (mod 5) 
+
+         Since 7 is prime, 26 ≡ 1 (mod 7),
+         36 ≡ 1 (mod 7), 46 ≡ 1 (mod 7) 
+         56 ≡ 1 (mod 7) and 66 ≡ 1 (mod 7) 
