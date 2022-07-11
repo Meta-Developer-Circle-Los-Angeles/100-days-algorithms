@@ -1,26 +1,26 @@
-// Title: Title: Reverse alternate levels of a perfect binary tree
+// Title: Reverse alternate levels of a perfect binary tree
 
-Subject:
-Given a Perfect Binary Tree, reverse the alternate level nodes of the binary tree. 
+// Subject:
+// Given a Perfect Binary Tree, reverse the alternate level nodes of the binary tree. 
 
-Example:
-Given tree: 
-               a
-            /     \
-           b       c
-         /  \     /  \
-        d    e    f    g
-       / \  / \  / \  / \
-       h  i j  k l  m  n  o 
+// Example:
+// Given tree: 
+//                a
+//             /     \
+//            b       c
+//          /  \     /  \
+//         d    e    f    g
+//        / \  / \  / \  / \
+//        h  i j  k l  m  n  o 
 
-Modified tree:
-               a
-            /     \
-           c       b
-         /  \     /  \
-        d    e    f    g
-       / \  / \  / \  / \
-      o  n m  l k  j  i  h 
+// Modified tree:
+//                a
+//             /     \
+//            c       b
+//          /  \     /  \
+//         d    e    f    g
+//        / \  / \  / \  / \
+//       o  n m  l k  j  i  h 
 
 
 // reference => https://www.geeksforgeeks.org/reverse-alternate-levels-binary-tree/
