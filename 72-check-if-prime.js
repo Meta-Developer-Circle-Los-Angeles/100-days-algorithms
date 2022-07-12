@@ -82,12 +82,6 @@ primalityTest(3); // true
 // EX 2:
 
 // result => is either composite or prime
-// x => exponentiation base
-// e => exponent
-// m => modular operand
-
-
-// result => is either composite or prime
 // xBase => exponentiation base
 // exp => exponent
 // mod => modular operand
