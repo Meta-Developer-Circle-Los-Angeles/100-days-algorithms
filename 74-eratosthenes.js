@@ -42,3 +42,4 @@ function eratosthenes(n){
  }
  
 eratosthenes(10);
+eratosthenes(20);
