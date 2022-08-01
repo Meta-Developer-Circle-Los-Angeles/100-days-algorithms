@@ -1,0 +1,26 @@
+Title: Gaussian Elimination to Solve Linear Equations
+
+Subject:
+The article focuses on using an algorithm for solving a system of linear equations. We will deal with the matrix of coefficients. Gaussian Elimination does not work on singular matrices (they lead to division by zero).
+
+Example:
+Input: For N unknowns, input is an augmented 
+       matrix of size N x (N+1). One extra 
+       column is for Right Hand Side (RHS)
+  mat[N][N+1] = {{3.0, 2.0,-4.0, 3.0},
+                {2.0, 3.0, 3.0, 15.0},
+                {5.0, -3, 1.0, 14.0}
+               };
+Output: Solution to equations is:
+        3.000000
+        1.000000
+        2.000000
+
+Explanation:
+Given matrix represents following equations
+3.0X1 + 2.0X2 - 4.0X3 =  3.0
+2.0X1 + 3.0X2 + 3.0X3 = 15.0
+5.0X1 - 3.0X2 +    X3 = 14.0
+
+There is a unique solution for given equations, 
+solutions is, X1 = 3.0, X2 = 1.0, X3 = 2.0, 
