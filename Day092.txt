@@ -1,0 +1,14 @@
+Title: Square root of an integer
+
+Subject:
+Given an integer x, find it’s square root. If x is not a perfect square, then return floor(√x).
+
+Example:
+Input: x = 4
+Output: 2
+Explanation:  The square root of 4 is 2.
+
+Input: x = 11
+Output: 3
+Explanation:  The square root of 11 lies in between
+3 and 4 so floor of the square root is 3.
